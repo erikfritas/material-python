@@ -1,0 +1,12 @@
+footer {
+    /* Colors */
+    background-color: rgba(73, 73, 231, 0.3);
+
+    /* Sizes */
+    padding: 20px 40px;
+}
+
+footer a {
+    /* Colors */
+    color: white;
+}

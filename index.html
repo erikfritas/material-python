@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materiais | Curso de Python</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/0_style.css">
+    <link rel="stylesheet" href="./assets/css/1_head.css">
+    <link rel="stylesheet" href="./assets/css/2_navbar.css">
+    <link rel="stylesheet" href="./assets/css/3_sobre.css">
+    <link rel="stylesheet" href="./assets/css/4_instalacao.css">
+    <link rel="stylesheet" href="./assets/css/5_footer.css">
+</head>
+<body>
+    <nav id="navbar" class="flex-row flex-between-center">
+        <h1><a id="navbar-title" href="#">ERIKFRITAS</a></h1>
+        <ul id="navbar-list" class="flex-row flex-between-center">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#instalacao">Instalação</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a type="file" href="./TODO.md">Grade</a></li>
+        </ul>
+    </nav>
+
+    <section id="sobre">
+        <article class="sobre-article">
+            <h1>O que é o python?</h1>
+            <p>
+                Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.
+            </p>
+            <p class="sm"><a href="https://www.python.org/doc/">Saiba mais...</a></p>
+        </article>
+        <article class="sobre-article">
+            <h1>O que é o vscode?</h1>
+            <p>
+                O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS.
+            </p>
+            <p class="sm"><a href="https://code.visualstudio.com/">Saiba mais...</a></p>
+        </article>
+    </section>
+
+    <section id="instalacao">
+        <div class="text-center" id="instalacao-intro">
+            <h1>Escolha de acordo com o seu sistema operacional.</h1>
+            <ul>
+                <li><a href="#windows">Windows</a></li>
+                <li><a href="#linux">Linux</a></li>
+                <li><a href="#mac">Mac</a></li>
+                <li><a href="#android">Android</a></li>
+            </ul>
+        </div>
+        <article class="instalacao-article" id="windows">
+            <h1>Instalação no Windows 7 ou 10</h1>
+            <article class="python">
+                <h1>Instalação do Python pelo site oficial:</h1>
+                <div>
+                    <h3>Clique em uma dessas opções de acordo com a arquitetura do seu sistema operacional.</h3>
+                    <p><a href="https://www.python.org/ftp/python/3.10.2/python-3.10.2.exe">Clique aqui se for 32 bits</a></p>
+                    <p><a href="https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.exe">Clique aqui se for 64 bits</a></p>
+                </div>
+                <p>
+                    Depois de baixado... Clique no arquivo e selecione a opção ADD TO PATH,
+                    quando aparecer uma tela como essa: <br>
+                    <img class="python_install" src="./assets/img/python_install.jpeg" alt="SELECIONE A OPÇÃO ADD TO PATH"> <br>
+                    Depois selecione a opção INSTALL NOW
+                </p>
+            </article>
+            <article class="vscode">
+                <h1>Instalação do VSCode direto do site oficial:</h1>
+                <p>
+                    <a href="https://code.visualstudio.com/download">Clique aqui</a> para acessar o site oficial
+                    e fazer o download... Feito isso faça a instalação normalmente, não se preocupe ele é bem leve.
+                </p>
+            </article>
+        </article>
+        <article class="instalacao-article" id="linux">
+            <h1>Instalação no Linux (Ubuntu)</h1>
+            <article class="python">
+                <h1>Instalação do python no Ubuntu (Linux)</h1>
+                <p>
+                    1° Passo: <br>
+                    <code>sudo apt update</code>
+                </p>
+                <p>
+                    2° Passo: <br>
+                    <code>sudo apt install software-properties-common</code>
+                </p>
+                <p>
+                    3° Passo: <br>
+                    <code>sudo add-apt-repository ppa:deadsnakes/ppa</code>
+                </p>
+                <p>
+                    4° Passo: <br>
+                    <code>sudo apt update</code>
+                </p>
+                <p>
+                    5° Passo: <br>
+                    <code>sudo apt install python3.8.10</code>
+                </p>
+                <p>
+                    6° Passo: <br>
+                    <code>python --version</code>
+                </p>
+                <p>
+                    Caso algum desses passos dê erro: "<a href="https://www.google.com/search?q=Como+instalar+o+Python+3+e+configurar+um+ambiente+de+programa%C3%A7%C3%A3o+em+um+servidor+Ubuntu+20.04">consulte um tutorial de instalação clicando aqui</a>"
+                </p>
+            </article>
+            <article class="vscode">
+                <h1>Instalação do VSCode direto do site oficial:</h1>
+                <p>
+                    <a href="https://code.visualstudio.com/download">Clique aqui</a> para acessar o site oficial
+                    e fazer o download... Feito isso faça a instalação normalmente, não se preocupe ele é bem leve. <br>
+                    Depois de instalado você pode usar um dpkg -i no arquivo para instalar, ou clique duas vezes em cima do arquivo caso a primeira opção não funcione. Para testar se foi instalado dê um code --version
+                </p>
+            </article>
+        </article>
+        <article class="instalacao-article" id="mac">
+            <h1>Instalação no MacOS 10+</h1>
+            <article class="python">
+                <h1>O python por padrão já vem instalado no MacOS.</h1>
+            </article>
+            <article class="vscode">
+                <h1>Instalação do VSCode direto do site oficial:</h1>
+                <p>
+                    <a href="https://code.visualstudio.com/download">Clique aqui</a> para acessar o site oficial
+                    e fazer o download... Feito isso faça a instalação normalmente, não se preocupe ele é bem leve.
+                </p>
+            </article>
+        </article>
+        <article class="instalacao-article" id="android">
+            <h1>Instalação no Android 6.0+</h1>
+            <article class="python">
+                <h1>Instalação do python no Android</h1>
+                <p>Vá na play store e busque por qpython3, instale o app e abra normalmente para usá-lo</p>
+                <p>Caso tenha alguma dúvida sobre o qpython3 me mande uma mensagem no meu instagram: @erikfritas</p>
+            </article>
+            <article class="vscode">
+                <h1>No android nós podemos usar o próprio QPython3 para programar.</h1>
+            </article>
+        </article>
+    </section>
+
+    <footer id="contato">
+        <h1>Para mais informações, ou para esclarecimento de dúvidas entre em contato comigo via instagram: <a href="https://instagram.com/erikfritas">@erikfritas</a></h1>
+    </footer>
+
+    <!-- JS -->
+</body>
+</html>

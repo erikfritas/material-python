@@ -1,0 +1,30 @@
+*{
+    /* Aligns */
+    margin: 0;
+    padding: 0;
+
+    /* Sizes */
+    box-sizing: border-box;
+}
+
+html, body {
+    /* Sizes */
+    height: 100%;
+
+    /* Aligns */
+    scroll-behavior: smooth;
+}
+
+body {
+    /* Background */
+    background-image: linear-gradient(to bottom, rgb(0, 201, 131), rgb(73, 0, 218));
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+::selection {
+    /* Colors */
+    background-color: rgba(0, 0, 0, 0.7);
+    color: lime;
+}

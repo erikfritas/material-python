@@ -1,0 +1,34 @@
+#navbar {
+    /* Sizes */
+    padding: 25px 5vw;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    /* Colors */
+    background-color: rgba(255, 255, 255, 0.5);
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+#navbar > h1 > a {
+    /* Colors */
+    color: rgb(0, 0, 0);
+}
+
+#navbar > ul a {
+    /* Colors */
+    color: rgb(255, 255, 255);
+}
+
+#navbar ul {
+    /* Colors */
+    background-color: rgb(33, 29, 46);
+
+    /* Sizes */
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+
+#navbar ul :not(:last-child) {
+    /* Aligns */
+    margin-right: 40px;
+}

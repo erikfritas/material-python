@@ -1,0 +1,33 @@
+#instalacao-intro {
+    /* Sizes */
+    padding: 40px 0;
+}
+
+#instalacao-intro h1 {
+    /* Aligns */
+    margin-bottom: 25px;
+}
+
+#instalacao-intro li {
+    /* Aligns */
+    margin-bottom: 10px;
+}
+
+.instalacao-article article p {
+    /* Aligns */
+    margin-bottom: 20px
+}
+
+.instalacao-article div h3 {
+    /* Aligns */
+    margin-bottom: 20px
+}
+
+.instalacao-article img {
+    /* Sizes */
+    width: 100%;
+    max-width: 400px;
+
+    /* Aligns */
+    margin: 20px auto;
+}

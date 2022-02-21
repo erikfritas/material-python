@@ -1,0 +1,56 @@
+.flex-row {
+    /* Aligns */
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-between-center {
+    /* Aligns */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section {
+    /* Colors */
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+
+    /* Aligns */
+    margin: auto;
+    margin: 40px;
+
+    /* Sizes */
+    width: 95%;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
+section article {
+    /* Aligns */
+    margin: 30px 0;
+    padding-left: 30px;
+}
+
+section article h1 {
+    /* Sizes */
+    font-size: 25px;
+
+    /* Aligns */
+    margin-bottom: 10px;
+}
